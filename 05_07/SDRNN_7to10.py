@@ -136,7 +136,7 @@ def start_GUI():
     tepochs = 0
     offset = 240
 
-    # Create the root object
+    # Create the root object - RIdwaanHall
     root = tk.Tk()
     root.configure(background = "#{0:02x}{1:02x}{2:02x}".format(offset,offset,offset))
     root.title("7 to 10 SDRNN")
